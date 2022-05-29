@@ -7,7 +7,7 @@ var ucapan =
 var background1 = "bg-1.jpg";
 var background2 = "coba.gif";
 // var background2 = "a2.jpg";
-var noWhatsapp = "082246101540";
+var noWhatsapp = "6282246101540";
 var pesanWhatsapp = "Haiii";
 
 // ======================================
@@ -76,7 +76,7 @@ async function balas() {
   var { value: nama } = await swalo.fire({
     imageUrl: "https://media.giphy.com/media/1zKRm7xZjkhaeeZbSd/giphy.gif",
     imageHeight: 120,
-    title: "Selamat ulang tahun ya, make a wish dulu",
+    title: "Selamat ulang tahun ya sayang 💖, make a wish dulu",
     input: "text",
     confirmButtonText: "Done",
   });
@@ -98,7 +98,7 @@ async function balas() {
       imageUrl: "https://i.postimg.cc/Z57zncGC/cutie2.gif",
       imageHeight: 120,
       confirmButtonText: "Iya deh",
-      title: "Kenapa gak diisi? Aku kan pengin kenalan...",
+      title: "Kenapa gak diisi? Harus diisi ya sayang...",
     });
     balas();
   }
