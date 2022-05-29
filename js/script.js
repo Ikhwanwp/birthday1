@@ -142,5 +142,5 @@ function checkTime(i) {
   return i;
 }
 document.querySelector(".kirimWA").addEventListener("click", function () {
-  location.assign("https://wa.me/" + noWhatsapp + "/?text=" + pesanWhatsapp);
+  location.assign("https://birthday-mylove2.netlify.app");
 });
